@@ -1,7 +1,7 @@
 {
   "name": "cee",
   "version": "0.0.1",
-  "description": "You are Cee's master, you tell her to brought you something.",
+  "description": "You are Cee's master, you tell her to bring you something.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
