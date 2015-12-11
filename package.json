@@ -1,0 +1,48 @@
+{
+  "name": "cee",
+  "version": "0.0.1",
+  "description": "You are Cee's master, you tell her to brought you something.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel src --out-dir lib --watch",
+    "build": "babel src --out-dir lib",
+    "x": "chmod +x lib/cli.js"
+  },
+  "bin": {
+    "cee": "lib/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoist/cee.git"
+  },
+  "author": "EGOIST <0x142857@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egoist/cee/issues"
+  },
+  "homepage": "https://github.com/egoist/cee#readme",
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.34",
+    "colorful": "^2.1.0",
+    "download": "^4.4.3",
+    "download-status": "^2.2.1",
+    "inquirer": "^0.11.0",
+    "lazy-json": "0.0.11",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^1.3.3",
+    "path-exists": "^2.1.0",
+    "pify": "^2.3.0",
+    "shelljs": "^0.5.3",
+    "typelog": "^0.1.2",
+    "update-notifier": "^0.6.0",
+    "user-home": "^2.0.0"
+  }
+}
